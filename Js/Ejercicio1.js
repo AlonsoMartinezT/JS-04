@@ -8,10 +8,10 @@ Ejemplos:
 
 Nota: Este enfoque utiliza el valor absoluto de cada resistencia para garantizar que todos los valores sean positivos. */
 
-function sumResistance(arreglo) {
-    let SumaTotal = 0;
-    for (let valores of arreglo) {
-        SumaTotal += Math.abs(valores);
+function sumResistance(arreglo) { // Recibe un arreglo
+    let SumaTotal = 0; // Inicializamos una variable acumulativa
+    for (let valores of arreglo) {  
+        SumaTotal += Math.abs(valores); // Sumamos los valores absolutos 
     }
     return SumaTotal + " ohmios";
 }
